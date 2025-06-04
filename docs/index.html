@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="MM-OR dataset for multimodal OR understanding">
+    <meta property="og:title" content="MM-OR Dataset"/>
+    <meta property="og:description" content="MM-OR dataset for multimodal OR understanding"/>
+    <meta property="og:url" content="https://yourusername.github.io/MM-OR/"/>
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/your_banner_image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER MM-OR dataset for multimodal OR understanding">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="multimodal, operating room, dataset, scene graph, segmentation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>MM-OR</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">MM-OR</h1>
+                    <div class="is-size-5 publication-authors">Ege Özsoy, Chantal Pellegrini, Tobias Czempiel, Felix Tristram, Kun Yuan, David Bani-Harouni, Ulrich Eck, Benjamin Busam, Matthias
+                        Keicher, Nassir Navab<br>Technical University of Munich <br> CVPR 2025
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- Arxiv PDF link -->
+                            <span class="link-block">
+                        <a href="https://arxiv.org/abs/2503.02579" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+
+                            <!-- Github link -->
+                            <span class="link-block">
+                    <a href="https://github.com/egeozsoy/MM-OR" target="_blank"
+                       class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-small is-light">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h2 class="title is-3">Dataset Overview</h2>
+
+            <img src="static/images/figure.jpg"
+                 alt="Dataset Overview"
+                 style="max-width: 100%; height: auto">
+        </div>
+    </div>
+</section>
+
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>Operating rooms (ORs) are complex, high-stakes environments requiring precise understanding of interactions among medical staff, tools, and equipment for enhancing surgical
+                        assistance, situational awareness, and patient safety. Current datasets fall short in scale, realism and do not capture the multimodal nature of OR scenes, limiting progress in
+                        OR modeling. To this end, we introduce MM-OR, a realistic and large-scale multimodal spatiotemporal OR dataset, and the first dataset to enable multimodal scene graph
+                        generation. MM-OR captures comprehensive OR scenes containing RGB-D data, detail views, audio, speech transcripts, robotic logs, and tracking data and is annotated with
+                        panoptic segmentations, semantic scene graphs, and downstream task labels. Further, we propose MM2SG, the first multimodal large vision-language model for scene graph
+                        generation, and through extensive experiments, demonstrate its ability to effectively leverage multimodal inputs. Together, MM-OR and MM2SG establish a new benchmark for
+                        holistic OR understanding, and open the path towards multimodal scene analysis in complex, high-stakes environments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Teaser video-->
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <video poster="" id="tree" autoplay controls muted loop height="100%">
+                <!-- Your video here -->
+                <source src="https://github.com/egeozsoy/MM-OR/releases/download/dataset_video_example/MM-OR.mp4"
+                        type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h2 class="title is-3">Video Presentation</h2>
+
+            <div style="display: inline-block; width: 100%">
+                <div class="video">
+                    <iframe
+                            width="100%" height="480"
+
+                            src="https://www.youtube.com/embed/m9Xe2n7qz1k"
+                            frameborder="0"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End youtube video -->
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h2 class="title is-3">Poster</h2>
+
+            <img src="static/images/MM_OR_poster.png"
+                 alt="Poster"
+                 style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+        </div>
+    </div>
+</section>
+
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@inproceedings{ozsoy2024mmor,
+  title={MM-OR: A Large Multimodal Operating Room Dataset for Semantic Understanding of High Intensity Surgical Environments},
+  author={Ege Özsoy and Pellegrini, Chantal and Czempiel, Tobias and Tristram, Felix and Yuan, Kun and Bani-Harouni, David and Eck, Ulrich and Busam, Benjamin and Keicher, Matthias and Navab, Nassir},
+  booktitle={CVPR},
+  note={Accepted},
+  year={2025}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+
+                    <p>
+                        This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted
+                        from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                        You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"
+                                                                                                                                                                                    href="http://creativecommons.org/licenses/by-sa/4.0/"
+                                                                                                                                                                                    target="_blank">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+
+</body>
+</html>

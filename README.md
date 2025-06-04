@@ -6,6 +6,7 @@ Official code of the paper "MM-OR: A Large Multimodal Operating Room Dataset for
 
 Paper: https://arxiv.org/abs/2503.02579
 
+Project page: https://egeozsoy.github.io/MM-OR/
 **Authors**: [Ege Özsoy][eo], Chantal Pellegrini, Tobias Czempiel, Felix Tristram, Kun Yuan, David Bani-Harouni, Ulrich Eck, Benjamin Busam, Matthias Keicher, [Nassir Navab][nassir]
 
 [eo]: https://www.cs.cit.tum.de/camp/members/ege-oezsoy/
