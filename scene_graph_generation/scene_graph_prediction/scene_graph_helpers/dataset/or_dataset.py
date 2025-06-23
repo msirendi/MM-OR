@@ -24,6 +24,7 @@ class ORDataset(Dataset):
 
         self.take_to_timestamps = {}
         self.take_to_trackertracks = {}
+        self.take_to_robotlogs = {}
         if load_4dor:
             for take in OR4D_TAKE_NAMES:
                 with (OR_4D_DATA_ROOT_PATH / OR4D_TAKE_NAME_TO_FOLDER[take] / f'timestamp_to_pcd_and_frames_list.json').open() as f:
@@ -43,6 +44,13 @@ class ORDataset(Dataset):
                 if tracker_tracks_path.exists():
                     with tracker_tracks_path.open() as f:
                         self.take_to_trackertracks[take] = json.load(f)
+
+                robot_log_path = MMOR_DATA_ROOT_PATH / 'take_timestamp_to_robot_logs' / f'{take}.json'
+                if robot_log_path.exists():
+                    with robot_log_path.open() as f:
+                        self.take_to_robotlogs[take] = list(json.load(f).values())
+                else:
+                    print(f'No robot logs found for take {take}, skipping. Follow the instruction in https://github.com/egeozsoy/MM-OR/releases/tag/lower_level_robot_logs to work with them.')
 
         self.classes = util.read_txt_to_list(self.data_path / 'classes.txt')
         self.relations = util.read_relationships(self.data_path / 'relationships.txt')
@@ -238,6 +246,13 @@ class ORDataset(Dataset):
                 robot_screen_summary_path = MMOR_DATA_ROOT_PATH / 'screen_summaries' / take_name / f'{simstation_idx_str}.json'
                 if robot_screen_summary_path.exists():
                     multimodal_data['robot_metadata'] = [robot_screen_summary_path]
+
+                timestamp_idx_str = self.take_to_timestamps[sample['take_name']][int(sample['frame_id'])][0]
+                if take_name in self.take_to_robotlogs:
+                    robot_log = self.take_to_robotlogs[take_name][int(timestamp_idx_str)]['log_lines']
+                    robot_log = '\n'.join(robot_log)  # join the log lines into a single string
+                    multimodal_data['robot_log'] = [robot_log]
+
         if load_tracking:
             if 'MMOR' in sample['take_name']:
                 take_name = sample["take_name"].replace('_MMOR', '')
