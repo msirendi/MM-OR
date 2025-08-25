@@ -115,6 +115,8 @@ This section builds upon the ORacle (https://github.com/egeozsoy/ORacle) and LLa
 
 ### Training
 - For the training, we first need to generate the training json. To this end run `python -m scene_graph_prediction.llava_helpers.generate_dataset_format_for_llava`. Reading through this script is suggested, it has some parameters for adjusting number of samples via N_PERM, controling temporality and augmentations etc.
+- Before your first training, you need to do `cd scene_graph_generation/LLaVA` and run `python -m llava.model.multimodal_projector.pointtransformerv3`. This will correctly initialize the point
+  transformer weights.
 - Now with the training json ready, we can proceed to training. cd into the LLaVA folder and run:
 ```python
   python -m llava.train.train_mem \

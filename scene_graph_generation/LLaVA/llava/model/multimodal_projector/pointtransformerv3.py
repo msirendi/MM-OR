@@ -968,19 +968,24 @@ class PointTransformerV3(PointModule):
                 self.dec.add(module=dec, name=f"dec{s}")
 
     def _init_weights(self, dtype, device):
-        '''
-        The init in LLava is a bit weird and causes issues. Instead we will save a dict from a previously seperate run and use those to initialize. These weights are also random but init correctly
-        :return:
-        '''
+        """
+        The init in LLava is a bit weird and causes issues. Instead we will save a dict from a previously
+        separate run and use those to initialize. These weights are also random but init correctly.
+        """
         save_path = Path('llava/model/multimodal_projector/pointtransformerv3_weights.pth')
         if save_path.exists():
             # load the weights
             print(f'Loading PointTransformerV3 weights from {save_path}')
-            self.load_state_dict(torch.load(save_path), strict=True)
-
+            state = torch.load(save_path, map_location='cpu')
+            self.load_state_dict(state, strict=True)
         else:
-            # instead save there the current weights
+            # only allow creating/saving weights when this file is executed directly
+            assert __name__ == '__main__', (
+                f'No weights found at {save_path}. Please run this file as a script once to '
+                f'initialize and save them.'
+            )
             print(f'Saving current PointTransformerV3 weights to {save_path}')
+            save_path.parent.mkdir(parents=True, exist_ok=True)
             torch.save(self.state_dict(), save_path)
 
         # apply dtype and device
