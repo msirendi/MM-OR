@@ -1,0 +1,140 @@
+{
+  "001_PKA": {
+    "anest": "A",
+    "circulator": "B",
+    "assistant_surgeon": "C",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "F",
+    "unrelated_person": "G"
+  },
+  "002_PKA": {
+    "anest": "A",
+    "circulator": "B",
+    "assistant_surgeon": "C",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "F"
+  },
+  "003_TKA": {
+    "anest": "A",
+    "circulator": "B",
+    "assistant_surgeon": "C",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "F"
+  },
+  "004_PKA": {
+    "anest": "A",
+    "circulator": "B",
+    "assistant_surgeon": "G",
+    "head_surgeon": "H",
+    "mps": "E",
+    "nurse": "F",
+    "unrelated_person": "G"
+  },
+  "006_PKA": {
+    "circulator": "B",
+    "assistant_surgeon": "G",
+    "head_surgeon": "H",
+    "mps": "E",
+    "nurse": "F"
+  },
+  "007_TKA": {
+    "circulator": "B",
+    "assistant_surgeon": "G",
+    "head_surgeon": "H",
+    "mps": "E",
+    "nurse": "F",
+    "unrelated_person": "G"
+  },
+  "008_PKA": {
+    "anest": "C",
+    "circulator": "B",
+    "assistant_surgeon": "G",
+    "head_surgeon": "H",
+    "mps": "E",
+    "nurse": "F"
+  },
+  "010_PKA": {
+    "anest": "C",
+    "circulator": "B",
+    "assistant_surgeon": "G",
+    "head_surgeon": "H",
+    "mps": "E",
+    "nurse": "F"
+  },
+  "011_TKA": {
+    "anest": "C",
+    "circulator": "B",
+    "assistant_surgeon": "G",
+    "head_surgeon": "H",
+    "mps": "E",
+    "nurse": "F"
+  },
+  "012_PKA": {
+    "circulator": "B",
+    "mps": "E",
+    "nurse": "I"
+  },
+  "013_PKA": {
+    "circulator": "B",
+    "mps": "E",
+    "nurse": "I"
+  },
+  "014_PKA": {
+    "mps": "E",
+    "nurse": "I"
+  },
+  "015-018_PKA": {
+    "mps": "E",
+    "nurse": "I"
+  },
+  "019-022_PKA": {
+    "mps": "E",
+    "nurse": "I"
+  },
+  "023-032_PKA": {
+    "mps": "E",
+    "nurse": "I"
+  },
+  "033_PKA": {
+    "circulator": "B",
+    "mps": "E",
+    "nurse": "I"
+  },
+  "035_PKA": {
+    "anest": "A",
+    "circulator": "B",
+    "assistant_surgeon": "C",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "I",
+    "unrelated_person": "J"
+  },
+  "036_PKA": {
+    "anest": "K",
+    "circulator": "A",
+    "assistant_surgeon": "C",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "I"
+  },
+  "037_TKA": {
+    "anest": "B",
+    "circulator": "A",
+    "assistant_surgeon": "K",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "I",
+    "student": "C"
+  },
+  "038_TKA": {
+    "anest": "K",
+    "circulator": "A",
+    "assistant_surgeon": "C",
+    "head_surgeon": "D",
+    "mps": "E",
+    "nurse": "I"
+  }
+}
