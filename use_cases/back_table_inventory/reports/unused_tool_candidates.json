@@ -1,0 +1,1216 @@
+{
+  "scope": {
+    "take_filter": null,
+    "trailing_seconds": 120
+  },
+  "per_take": {
+    "001_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 792,
+          "handling_frames_count": 792,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 31,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 70,
+          "last_seen_frame": 1788,
+          "last_active_frame": 1639,
+          "status": "used",
+          "candidate_reasons": [
+            "tool_visible_or_referenced_149s_after_last_active_use"
+          ]
+        },
+        "drill": {
+          "seen_frames_count": 89,
+          "handling_frames_count": 89,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 74,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 1114,
+          "last_seen_frame": 1554,
+          "last_active_frame": 1554,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 15,
+          "handling_frames_count": 15,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 22,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 1440,
+          "last_seen_frame": 1492,
+          "last_active_frame": 1492,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 125,
+          "handling_frames_count": 125,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 66,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 700,
+          "last_seen_frame": 1434,
+          "last_active_frame": 1434,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "tool": "instrument",
+          "seen_frames_count": 792,
+          "handling_frames_count": 792,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 31,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 70,
+          "last_seen_frame": 1788,
+          "last_active_frame": 1639,
+          "status": "used",
+          "candidate_reasons": [
+            "tool_visible_or_referenced_149s_after_last_active_use"
+          ]
+        }
+      ],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "002_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 511,
+          "handling_frames_count": 508,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 29,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 5,
+          "last_seen_frame": 854,
+          "last_active_frame": 849,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 133,
+          "handling_frames_count": 133,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 111,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 366,
+          "last_seen_frame": 760,
+          "last_active_frame": 760,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 11,
+          "handling_frames_count": 11,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 12,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 646,
+          "last_seen_frame": 656,
+          "last_active_frame": 692,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 76,
+          "handling_frames_count": 76,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 91,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 569,
+          "last_seen_frame": 644,
+          "last_active_frame": 644,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "003_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 509,
+          "handling_frames_count": 509,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 20,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 7,
+          "last_seen_frame": 992,
+          "last_active_frame": 960,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 149,
+          "handling_frames_count": 149,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 130,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 419,
+          "last_seen_frame": 901,
+          "last_active_frame": 896,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 15,
+          "handling_frames_count": 15,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 15,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 779,
+          "last_seen_frame": 831,
+          "last_active_frame": 831,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 103,
+          "handling_frames_count": 103,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 66,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 599,
+          "last_seen_frame": 725,
+          "last_active_frame": 725,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "004_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 247,
+          "handling_frames_count": 247,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 28,
+          "last_seen_frame": 809,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        },
+        "drill": {
+          "seen_frames_count": 53,
+          "handling_frames_count": 53,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 36,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 336,
+          "last_seen_frame": 756,
+          "last_active_frame": 756,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 4,
+          "handling_frames_count": 4,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 2,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 705,
+          "last_seen_frame": 741,
+          "last_active_frame": 706,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 109,
+          "handling_frames_count": 109,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 40,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 494,
+          "last_seen_frame": 679,
+          "last_active_frame": 679,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "tool": "instrument",
+          "seen_frames_count": 247,
+          "handling_frames_count": 247,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 28,
+          "last_seen_frame": 809,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        }
+      ],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "005_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 581,
+          "handling_frames_count": 581,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 25,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 28,
+          "last_seen_frame": 878,
+          "last_active_frame": 852,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 47,
+          "handling_frames_count": 47,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 57,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 365,
+          "last_seen_frame": 797,
+          "last_active_frame": 797,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 8,
+          "handling_frames_count": 8,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 27,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 391,
+          "last_seen_frame": 703,
+          "last_active_frame": 771,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 75,
+          "handling_frames_count": 75,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 87,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 191,
+          "last_seen_frame": 557,
+          "last_active_frame": 626,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "006_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 605,
+          "handling_frames_count": 605,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 21,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 6,
+          "last_seen_frame": 973,
+          "last_active_frame": 958,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 67,
+          "handling_frames_count": 67,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 64,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 283,
+          "last_seen_frame": 899,
+          "last_active_frame": 899,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 8,
+          "handling_frames_count": 8,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 9,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 349,
+          "last_seen_frame": 858,
+          "last_active_frame": 858,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 327,
+          "handling_frames_count": 327,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 316,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 441,
+          "last_seen_frame": 801,
+          "last_active_frame": 801,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "007_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 819,
+          "handling_frames_count": 818,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 26,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 27,
+          "last_seen_frame": 3465,
+          "last_active_frame": 3330,
+          "status": "used",
+          "candidate_reasons": [
+            "tool_visible_or_referenced_135s_after_last_active_use"
+          ]
+        },
+        "drill": {
+          "seen_frames_count": 52,
+          "handling_frames_count": 52,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 25,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 1521,
+          "last_seen_frame": 3057,
+          "last_active_frame": 3054,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 23,
+          "handling_frames_count": 23,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 15,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 1662,
+          "last_seen_frame": 2991,
+          "last_active_frame": 2991,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 120,
+          "handling_frames_count": 120,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 91,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 846,
+          "last_seen_frame": 2559,
+          "last_active_frame": 2559,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "tool": "instrument",
+          "seen_frames_count": 819,
+          "handling_frames_count": 818,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 26,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 27,
+          "last_seen_frame": 3465,
+          "last_active_frame": 3330,
+          "status": "used",
+          "candidate_reasons": [
+            "tool_visible_or_referenced_135s_after_last_active_use"
+          ]
+        }
+      ],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "008_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 1836,
+          "handling_frames_count": 1836,
+          "active_frames_from_direct_tool_relations_count": 10,
+          "active_frames_from_predicate_inference_count": 55,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 15,
+          "last_seen_frame": 2678,
+          "last_active_frame": 2645,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 125,
+          "handling_frames_count": 125,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 73,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 429,
+          "last_seen_frame": 2380,
+          "last_active_frame": 2375,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 68,
+          "handling_frames_count": 68,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 25,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 1567,
+          "last_seen_frame": 2292,
+          "last_active_frame": 2277,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 346,
+          "handling_frames_count": 346,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 198,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 683,
+          "last_seen_frame": 2117,
+          "last_active_frame": 2117,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "009_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 316,
+          "handling_frames_count": 316,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 15,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 21,
+          "last_seen_frame": 523,
+          "last_active_frame": 532,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 15,
+          "handling_frames_count": 15,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 15,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 243,
+          "last_seen_frame": 480,
+          "last_active_frame": 480,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 2,
+          "handling_frames_count": 2,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 6,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 272,
+          "last_seen_frame": 454,
+          "last_active_frame": 456,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 58,
+          "handling_frames_count": 58,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 51,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 133,
+          "last_seen_frame": 430,
+          "last_active_frame": 430,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "010_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 954,
+          "handling_frames_count": 954,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 45,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 1,
+          "last_seen_frame": 1542,
+          "last_active_frame": 1507,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 35,
+          "handling_frames_count": 35,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 32,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 222,
+          "last_seen_frame": 1211,
+          "last_active_frame": 1207,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 57,
+          "handling_frames_count": 57,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 22,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 326,
+          "last_seen_frame": 1085,
+          "last_active_frame": 1084,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 308,
+          "handling_frames_count": 308,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 278,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 109,
+          "last_seen_frame": 945,
+          "last_active_frame": 944,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "011_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 186,
+          "handling_frames_count": 186,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 8,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 4,
+          "last_seen_frame": 496,
+          "last_active_frame": 487,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 12,
+          "handling_frames_count": 12,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 17,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 211,
+          "last_seen_frame": 437,
+          "last_active_frame": 436,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 1,
+          "handling_frames_count": 1,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 2,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 408,
+          "last_seen_frame": 408,
+          "last_active_frame": 408,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 69,
+          "handling_frames_count": 59,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 42,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 314,
+          "last_seen_frame": 390,
+          "last_active_frame": 385,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "012_1_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 216,
+          "handling_frames_count": 216,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 17,
+          "last_seen_frame": 357,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        },
+        "drill": {
+          "seen_frames_count": 0,
+          "handling_frames_count": 0,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": null,
+          "last_seen_frame": null,
+          "last_active_frame": null,
+          "status": "not_observed",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 0,
+          "handling_frames_count": 0,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": null,
+          "last_seen_frame": null,
+          "last_active_frame": null,
+          "status": "not_observed",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 0,
+          "handling_frames_count": 0,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": null,
+          "last_seen_frame": null,
+          "last_active_frame": null,
+          "status": "not_observed",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "tool": "instrument",
+          "seen_frames_count": 216,
+          "handling_frames_count": 216,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 17,
+          "last_seen_frame": 357,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        }
+      ],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "012_2_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 49,
+          "handling_frames_count": 49,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 7,
+          "last_seen_frame": 108,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        },
+        "drill": {
+          "seen_frames_count": 0,
+          "handling_frames_count": 0,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": null,
+          "last_seen_frame": null,
+          "last_active_frame": null,
+          "status": "not_observed",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 0,
+          "handling_frames_count": 0,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": null,
+          "last_seen_frame": null,
+          "last_active_frame": null,
+          "status": "not_observed",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 32,
+          "handling_frames_count": 32,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 0,
+          "last_seen_frame": 40,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        }
+      },
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "tool": "instrument",
+          "seen_frames_count": 49,
+          "handling_frames_count": 49,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 7,
+          "last_seen_frame": 108,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        },
+        {
+          "tool": "saw",
+          "seen_frames_count": 32,
+          "handling_frames_count": 32,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 0,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 0,
+          "last_seen_frame": 40,
+          "last_active_frame": null,
+          "status": "seen_not_used_candidate",
+          "candidate_reasons": [
+            "seen_in_context_but_no_active_use_signal"
+          ]
+        }
+      ],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "035_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 261,
+          "handling_frames_count": 260,
+          "active_frames_from_direct_tool_relations_count": 1,
+          "active_frames_from_predicate_inference_count": 11,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 13,
+          "last_seen_frame": 1098,
+          "last_active_frame": 854,
+          "status": "used",
+          "candidate_reasons": [
+            "tool_visible_or_referenced_244s_after_last_active_use"
+          ]
+        },
+        "drill": {
+          "seen_frames_count": 171,
+          "handling_frames_count": 171,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 90,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 280,
+          "last_seen_frame": 947,
+          "last_active_frame": 946,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 31,
+          "handling_frames_count": 31,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 17,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 768,
+          "last_seen_frame": 863,
+          "last_active_frame": 863,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 73,
+          "handling_frames_count": 73,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 69,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 677,
+          "last_seen_frame": 756,
+          "last_active_frame": 830,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "tool": "instrument",
+          "seen_frames_count": 261,
+          "handling_frames_count": 260,
+          "active_frames_from_direct_tool_relations_count": 1,
+          "active_frames_from_predicate_inference_count": 11,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 13,
+          "last_seen_frame": 1098,
+          "last_active_frame": 854,
+          "status": "used",
+          "candidate_reasons": [
+            "tool_visible_or_referenced_244s_after_last_active_use"
+          ]
+        }
+      ],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "036_PKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 602,
+          "handling_frames_count": 602,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 12,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 7,
+          "last_seen_frame": 986,
+          "last_active_frame": 938,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 141,
+          "handling_frames_count": 141,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 86,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 395,
+          "last_seen_frame": 854,
+          "last_active_frame": 847,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 27,
+          "handling_frames_count": 27,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 24,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 512,
+          "last_seen_frame": 763,
+          "last_active_frame": 763,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 165,
+          "handling_frames_count": 165,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 79,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 192,
+          "last_seen_frame": 700,
+          "last_active_frame": 700,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "037_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 470,
+          "handling_frames_count": 470,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 7,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 11,
+          "last_seen_frame": 1104,
+          "last_active_frame": 1127,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 61,
+          "handling_frames_count": 61,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 116,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 364,
+          "last_seen_frame": 1067,
+          "last_active_frame": 1061,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 0,
+          "handling_frames_count": 0,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 4,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": null,
+          "last_seen_frame": null,
+          "last_active_frame": 536,
+          "status": "not_observed",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 74,
+          "handling_frames_count": 74,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 253,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 541,
+          "last_seen_frame": 929,
+          "last_active_frame": 927,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    },
+    "038_TKA": {
+      "tool_summary": {
+        "instrument": {
+          "seen_frames_count": 367,
+          "handling_frames_count": 367,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 6,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 8,
+          "last_seen_frame": 633,
+          "last_active_frame": 579,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "drill": {
+          "seen_frames_count": 195,
+          "handling_frames_count": 195,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 97,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 125,
+          "last_seen_frame": 530,
+          "last_active_frame": 528,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "hammer": {
+          "seen_frames_count": 4,
+          "handling_frames_count": 4,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 3,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 380,
+          "last_seen_frame": 385,
+          "last_active_frame": 382,
+          "status": "used",
+          "candidate_reasons": []
+        },
+        "saw": {
+          "seen_frames_count": 83,
+          "handling_frames_count": 64,
+          "active_frames_from_direct_tool_relations_count": 0,
+          "active_frames_from_predicate_inference_count": 55,
+          "active_frames_from_next_action_count": 0,
+          "first_seen_frame": 281,
+          "last_seen_frame": 375,
+          "last_active_frame": 373,
+          "status": "used",
+          "candidate_reasons": []
+        }
+      },
+      "candidate_count": 0,
+      "candidates": [],
+      "labels_available": {
+        "next_action": false
+      }
+    }
+  },
+  "global_candidates": [
+    {
+      "take": "001_PKA",
+      "tool": "instrument",
+      "seen_frames_count": 792,
+      "handling_frames_count": 792,
+      "active_frames_from_direct_tool_relations_count": 0,
+      "active_frames_from_predicate_inference_count": 31,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 70,
+      "last_seen_frame": 1788,
+      "last_active_frame": 1639,
+      "status": "used",
+      "candidate_reasons": [
+        "tool_visible_or_referenced_149s_after_last_active_use"
+      ]
+    },
+    {
+      "take": "004_PKA",
+      "tool": "instrument",
+      "seen_frames_count": 247,
+      "handling_frames_count": 247,
+      "active_frames_from_direct_tool_relations_count": 0,
+      "active_frames_from_predicate_inference_count": 0,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 28,
+      "last_seen_frame": 809,
+      "last_active_frame": null,
+      "status": "seen_not_used_candidate",
+      "candidate_reasons": [
+        "seen_in_context_but_no_active_use_signal"
+      ]
+    },
+    {
+      "take": "007_TKA",
+      "tool": "instrument",
+      "seen_frames_count": 819,
+      "handling_frames_count": 818,
+      "active_frames_from_direct_tool_relations_count": 0,
+      "active_frames_from_predicate_inference_count": 26,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 27,
+      "last_seen_frame": 3465,
+      "last_active_frame": 3330,
+      "status": "used",
+      "candidate_reasons": [
+        "tool_visible_or_referenced_135s_after_last_active_use"
+      ]
+    },
+    {
+      "take": "012_1_PKA",
+      "tool": "instrument",
+      "seen_frames_count": 216,
+      "handling_frames_count": 216,
+      "active_frames_from_direct_tool_relations_count": 0,
+      "active_frames_from_predicate_inference_count": 0,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 17,
+      "last_seen_frame": 357,
+      "last_active_frame": null,
+      "status": "seen_not_used_candidate",
+      "candidate_reasons": [
+        "seen_in_context_but_no_active_use_signal"
+      ]
+    },
+    {
+      "take": "012_2_PKA",
+      "tool": "instrument",
+      "seen_frames_count": 49,
+      "handling_frames_count": 49,
+      "active_frames_from_direct_tool_relations_count": 0,
+      "active_frames_from_predicate_inference_count": 0,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 7,
+      "last_seen_frame": 108,
+      "last_active_frame": null,
+      "status": "seen_not_used_candidate",
+      "candidate_reasons": [
+        "seen_in_context_but_no_active_use_signal"
+      ]
+    },
+    {
+      "take": "012_2_PKA",
+      "tool": "saw",
+      "seen_frames_count": 32,
+      "handling_frames_count": 32,
+      "active_frames_from_direct_tool_relations_count": 0,
+      "active_frames_from_predicate_inference_count": 0,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 0,
+      "last_seen_frame": 40,
+      "last_active_frame": null,
+      "status": "seen_not_used_candidate",
+      "candidate_reasons": [
+        "seen_in_context_but_no_active_use_signal"
+      ]
+    },
+    {
+      "take": "035_PKA",
+      "tool": "instrument",
+      "seen_frames_count": 261,
+      "handling_frames_count": 260,
+      "active_frames_from_direct_tool_relations_count": 1,
+      "active_frames_from_predicate_inference_count": 11,
+      "active_frames_from_next_action_count": 0,
+      "first_seen_frame": 13,
+      "last_seen_frame": 1098,
+      "last_active_frame": 854,
+      "status": "used",
+      "candidate_reasons": [
+        "tool_visible_or_referenced_244s_after_last_active_use"
+      ]
+    }
+  ]
+}

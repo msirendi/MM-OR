@@ -1,0 +1,37 @@
+{
+  "take": "001_PKA",
+  "frames": 1799,
+  "relationships_total": 15329,
+  "active_use_relationships_total": 179,
+  "per_tool_state_counts": {
+    "instrument": {
+      "active_use": 31,
+      "handling": 778,
+      "context": 0,
+      "none": 990
+    },
+    "drill": {
+      "active_use": 74,
+      "handling": 15,
+      "context": 0,
+      "none": 1710
+    },
+    "hammer": {
+      "active_use": 22,
+      "handling": 4,
+      "context": 0,
+      "none": 1773
+    },
+    "saw": {
+      "active_use": 66,
+      "handling": 66,
+      "context": 0,
+      "none": 1667
+    }
+  },
+  "labels_available": {
+    "next_action": false,
+    "robot_phase": false,
+    "sterility_breach": false
+  }
+}

@@ -1,0 +1,1059 @@
+{
+  "overview": {
+    "samples_total_mmor": 17121,
+    "samples_with_relationships": 16991,
+    "distinct_takes": 17,
+    "takes": [
+      "001_PKA",
+      "002_PKA",
+      "003_TKA",
+      "004_PKA",
+      "005_TKA",
+      "006_PKA",
+      "007_TKA",
+      "008_PKA",
+      "009_TKA",
+      "010_PKA",
+      "011_TKA",
+      "012_1_PKA",
+      "012_2_PKA",
+      "035_PKA",
+      "036_PKA",
+      "037_TKA",
+      "038_TKA"
+    ]
+  },
+  "focus_entity_mentions": {
+    "instrument_table": 22202,
+    "secondary_table": 0,
+    "instrument": 11898,
+    "drill": 1365,
+    "hammer": 279,
+    "saw": 2183
+  },
+  "top_predicates": [
+    [
+      "closeTo",
+      72712
+    ],
+    [
+      "lyingOn",
+      32733
+    ],
+    [
+      "holding",
+      16181
+    ],
+    [
+      "manipulating",
+      10273
+    ],
+    [
+      "touching",
+      8980
+    ],
+    [
+      "preparing",
+      7840
+    ],
+    [
+      "assisting",
+      3304
+    ],
+    [
+      "sawing",
+      1705
+    ],
+    [
+      "calibrating",
+      1171
+    ],
+    [
+      "drilling",
+      1023
+    ],
+    [
+      "hammering",
+      178
+    ],
+    [
+      "suturing",
+      94
+    ],
+    [
+      "cutting",
+      77
+    ],
+    [
+      "cleaning",
+      68
+    ],
+    [
+      "scanning",
+      51
+    ],
+    [
+      "cementing",
+      27
+    ]
+  ],
+  "top_table_triplets": [
+    [
+      "nurse,instrument_table,closeTo",
+      7811
+    ],
+    [
+      "nurse,instrument_table,preparing",
+      5853
+    ],
+    [
+      "circulator,instrument_table,closeTo",
+      4596
+    ],
+    [
+      "mps,instrument_table,closeTo",
+      2120
+    ],
+    [
+      "assistant_surgeon,instrument_table,closeTo",
+      1214
+    ],
+    [
+      "head_surgeon,instrument_table,closeTo",
+      382
+    ],
+    [
+      "assistant_surgeon,instrument_table,preparing",
+      76
+    ],
+    [
+      "mps,instrument_table,preparing",
+      36
+    ],
+    [
+      "nurse,instrument_table,touching",
+      31
+    ],
+    [
+      "anaesthetist,instrument_table,closeTo",
+      30
+    ],
+    [
+      "head_surgeon,instrument_table,preparing",
+      20
+    ],
+    [
+      "unrelated_person,instrument_table,closeTo",
+      6
+    ],
+    [
+      "student,instrument_table,closeTo",
+      5
+    ],
+    [
+      "mps,instrument_table,manipulating",
+      4
+    ],
+    [
+      "nurse,instrument_table,manipulating",
+      3
+    ],
+    [
+      "head_surgeon,instrument_table,touching",
+      3
+    ],
+    [
+      "circulator,instrument_table,assisting",
+      2
+    ],
+    [
+      "circulator,instrument_table,preparing",
+      2
+    ],
+    [
+      "mps,instrument_table,assisting",
+      1
+    ],
+    [
+      "nurse,instrument_table,cleaning",
+      1
+    ],
+    [
+      "nurse,instrument_table,cutting",
+      1
+    ],
+    [
+      "instrument_table,head_surgeon,assisting",
+      1
+    ],
+    [
+      "nurse,instrument_table,sawing",
+      1
+    ],
+    [
+      "mps,instrument_table,touching",
+      1
+    ],
+    [
+      "mps,instrument_table,holding",
+      1
+    ],
+    [
+      "assistant_surgeon,instrument_table,touching",
+      1
+    ]
+  ],
+  "top_tool_triplets": [
+    [
+      "nurse,instrument,holding",
+      5883
+    ],
+    [
+      "head_surgeon,instrument,holding",
+      2383
+    ],
+    [
+      "assistant_surgeon,instrument,holding",
+      1803
+    ],
+    [
+      "head_surgeon,saw,holding",
+      1704
+    ],
+    [
+      "circulator,instrument,holding",
+      1062
+    ],
+    [
+      "head_surgeon,drill,holding",
+      769
+    ],
+    [
+      "mps,instrument,holding",
+      698
+    ],
+    [
+      "assistant_surgeon,drill,holding",
+      420
+    ],
+    [
+      "nurse,saw,holding",
+      233
+    ],
+    [
+      "nurse,drill,holding",
+      176
+    ],
+    [
+      "head_surgeon,hammer,holding",
+      173
+    ],
+    [
+      "assistant_surgeon,saw,holding",
+      159
+    ],
+    [
+      "nurse,hammer,holding",
+      79
+    ],
+    [
+      "saw,mako_robot,closeTo",
+      59
+    ],
+    [
+      "assistant_surgeon,hammer,holding",
+      27
+    ],
+    [
+      "nurse,instrument,touching",
+      24
+    ],
+    [
+      "head_surgeon,saw,touching",
+      19
+    ],
+    [
+      "anaesthetist,instrument,holding",
+      14
+    ],
+    [
+      "head_surgeon,instrument,cutting",
+      10
+    ],
+    [
+      "mps,instrument,touching",
+      6
+    ],
+    [
+      "head_surgeon,saw,closeTo",
+      6
+    ],
+    [
+      "student,instrument,holding",
+      3
+    ],
+    [
+      "circulator,instrument,closeTo",
+      3
+    ],
+    [
+      "nurse,instrument,assisting",
+      3
+    ],
+    [
+      "nurse,saw,touching",
+      2
+    ],
+    [
+      "circulator,instrument,touching",
+      2
+    ],
+    [
+      "mps,instrument,manipulating",
+      1
+    ],
+    [
+      "nurse,instrument,preparing",
+      1
+    ],
+    [
+      "nurse,instrument,cementing",
+      1
+    ],
+    [
+      "nurse,instrument,manipulating",
+      1
+    ],
+    [
+      "nurse,saw,manipulating",
+      1
+    ]
+  ],
+  "global_tool_status_counts": {
+    "used": 58,
+    "handled_no_active_use": 4,
+    "not_observed": 6
+  },
+  "per_take_tool_summary": {
+    "001_PKA": {
+      "instrument": {
+        "mentions": 950,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 31,
+        "handling_events": 950,
+        "first_frame": 70,
+        "last_frame": 1788,
+        "frames_with_table_context": 634,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 96,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 74,
+        "handling_events": 96,
+        "first_frame": 1114,
+        "last_frame": 1554,
+        "frames_with_table_context": 74,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 18,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 22,
+        "handling_events": 18,
+        "first_frame": 1238,
+        "last_frame": 1492,
+        "frames_with_table_context": 3,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 128,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 66,
+        "handling_events": 128,
+        "first_frame": 700,
+        "last_frame": 1434,
+        "frames_with_table_context": 28,
+        "status": "used"
+      }
+    },
+    "002_PKA": {
+      "instrument": {
+        "mentions": 650,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 29,
+        "handling_events": 646,
+        "first_frame": 5,
+        "last_frame": 854,
+        "frames_with_table_context": 364,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 137,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 111,
+        "handling_events": 137,
+        "first_frame": 366,
+        "last_frame": 760,
+        "frames_with_table_context": 84,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 11,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 12,
+        "handling_events": 11,
+        "first_frame": 646,
+        "last_frame": 692,
+        "frames_with_table_context": 11,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 76,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 91,
+        "handling_events": 76,
+        "first_frame": 421,
+        "last_frame": 644,
+        "frames_with_table_context": 75,
+        "status": "used"
+      }
+    },
+    "003_TKA": {
+      "instrument": {
+        "mentions": 608,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 20,
+        "handling_events": 608,
+        "first_frame": 7,
+        "last_frame": 992,
+        "frames_with_table_context": 373,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 156,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 130,
+        "handling_events": 156,
+        "first_frame": 419,
+        "last_frame": 901,
+        "frames_with_table_context": 77,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 15,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 15,
+        "handling_events": 15,
+        "first_frame": 779,
+        "last_frame": 831,
+        "frames_with_table_context": 10,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 103,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 66,
+        "handling_events": 103,
+        "first_frame": 562,
+        "last_frame": 725,
+        "frames_with_table_context": 103,
+        "status": "used"
+      }
+    },
+    "004_PKA": {
+      "instrument": {
+        "mentions": 307,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 307,
+        "first_frame": 28,
+        "last_frame": 809,
+        "frames_with_table_context": 214,
+        "status": "handled_no_active_use"
+      },
+      "drill": {
+        "mentions": 53,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 36,
+        "handling_events": 53,
+        "first_frame": 336,
+        "last_frame": 756,
+        "frames_with_table_context": 52,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 4,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 2,
+        "handling_events": 4,
+        "first_frame": 705,
+        "last_frame": 741,
+        "frames_with_table_context": 4,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 109,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 40,
+        "handling_events": 109,
+        "first_frame": 494,
+        "last_frame": 679,
+        "frames_with_table_context": 88,
+        "status": "used"
+      }
+    },
+    "005_TKA": {
+      "instrument": {
+        "mentions": 783,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 28,
+        "handling_events": 783,
+        "first_frame": 28,
+        "last_frame": 878,
+        "frames_with_table_context": 532,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 47,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 57,
+        "handling_events": 47,
+        "first_frame": 348,
+        "last_frame": 797,
+        "frames_with_table_context": 42,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 8,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 27,
+        "handling_events": 8,
+        "first_frame": 391,
+        "last_frame": 771,
+        "frames_with_table_context": 8,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 75,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 87,
+        "handling_events": 75,
+        "first_frame": 191,
+        "last_frame": 626,
+        "frames_with_table_context": 67,
+        "status": "used"
+      }
+    },
+    "006_PKA": {
+      "instrument": {
+        "mentions": 755,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 21,
+        "handling_events": 755,
+        "first_frame": 6,
+        "last_frame": 973,
+        "frames_with_table_context": 449,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 67,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 64,
+        "handling_events": 67,
+        "first_frame": 283,
+        "last_frame": 899,
+        "frames_with_table_context": 52,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 8,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 9,
+        "handling_events": 8,
+        "first_frame": 349,
+        "last_frame": 858,
+        "frames_with_table_context": 0,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 327,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 316,
+        "handling_events": 327,
+        "first_frame": 262,
+        "last_frame": 801,
+        "frames_with_table_context": 293,
+        "status": "used"
+      }
+    },
+    "007_TKA": {
+      "instrument": {
+        "mentions": 1257,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 29,
+        "handling_events": 1255,
+        "first_frame": 27,
+        "last_frame": 3465,
+        "frames_with_table_context": 788,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 52,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 25,
+        "handling_events": 52,
+        "first_frame": 1521,
+        "last_frame": 3057,
+        "frames_with_table_context": 52,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 23,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 15,
+        "handling_events": 23,
+        "first_frame": 1662,
+        "last_frame": 2991,
+        "frames_with_table_context": 23,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 120,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 91,
+        "handling_events": 120,
+        "first_frame": 846,
+        "last_frame": 2559,
+        "frames_with_table_context": 110,
+        "status": "used"
+      }
+    },
+    "008_PKA": {
+      "instrument": {
+        "mentions": 2404,
+        "active_use_events_direct": 10,
+        "active_use_events_inferred": 55,
+        "handling_events": 2394,
+        "first_frame": 15,
+        "last_frame": 2678,
+        "frames_with_table_context": 1749,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 125,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 73,
+        "handling_events": 125,
+        "first_frame": 429,
+        "last_frame": 2380,
+        "frames_with_table_context": 125,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 69,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 25,
+        "handling_events": 69,
+        "first_frame": 1567,
+        "last_frame": 2292,
+        "frames_with_table_context": 57,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 346,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 198,
+        "handling_events": 346,
+        "first_frame": 683,
+        "last_frame": 2117,
+        "frames_with_table_context": 343,
+        "status": "used"
+      }
+    },
+    "009_TKA": {
+      "instrument": {
+        "mentions": 380,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 15,
+        "handling_events": 380,
+        "first_frame": 21,
+        "last_frame": 532,
+        "frames_with_table_context": 279,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 15,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 15,
+        "handling_events": 15,
+        "first_frame": 243,
+        "last_frame": 480,
+        "frames_with_table_context": 9,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 2,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 6,
+        "handling_events": 2,
+        "first_frame": 269,
+        "last_frame": 456,
+        "frames_with_table_context": 1,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 58,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 51,
+        "handling_events": 58,
+        "first_frame": 133,
+        "last_frame": 430,
+        "frames_with_table_context": 55,
+        "status": "used"
+      }
+    },
+    "010_PKA": {
+      "instrument": {
+        "mentions": 1282,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 45,
+        "handling_events": 1282,
+        "first_frame": 1,
+        "last_frame": 1542,
+        "frames_with_table_context": 906,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 35,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 32,
+        "handling_events": 35,
+        "first_frame": 222,
+        "last_frame": 1211,
+        "frames_with_table_context": 32,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 57,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 22,
+        "handling_events": 57,
+        "first_frame": 326,
+        "last_frame": 1085,
+        "frames_with_table_context": 57,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 308,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 278,
+        "handling_events": 308,
+        "first_frame": 109,
+        "last_frame": 945,
+        "frames_with_table_context": 300,
+        "status": "used"
+      }
+    },
+    "011_TKA": {
+      "instrument": {
+        "mentions": 221,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 8,
+        "handling_events": 221,
+        "first_frame": 4,
+        "last_frame": 496,
+        "frames_with_table_context": 181,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 12,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 17,
+        "handling_events": 12,
+        "first_frame": 209,
+        "last_frame": 437,
+        "frames_with_table_context": 12,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 1,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 2,
+        "handling_events": 1,
+        "first_frame": 245,
+        "last_frame": 408,
+        "frames_with_table_context": 1,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 80,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 42,
+        "handling_events": 60,
+        "first_frame": 218,
+        "last_frame": 390,
+        "frames_with_table_context": 68,
+        "status": "used"
+      }
+    },
+    "012_1_PKA": {
+      "instrument": {
+        "mentions": 251,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 251,
+        "first_frame": 17,
+        "last_frame": 357,
+        "frames_with_table_context": 209,
+        "status": "handled_no_active_use"
+      },
+      "drill": {
+        "mentions": 0,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 0,
+        "first_frame": null,
+        "last_frame": null,
+        "frames_with_table_context": 0,
+        "status": "not_observed"
+      },
+      "hammer": {
+        "mentions": 0,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 0,
+        "first_frame": null,
+        "last_frame": null,
+        "frames_with_table_context": 0,
+        "status": "not_observed"
+      },
+      "saw": {
+        "mentions": 0,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 0,
+        "first_frame": null,
+        "last_frame": null,
+        "frames_with_table_context": 0,
+        "status": "not_observed"
+      }
+    },
+    "012_2_PKA": {
+      "instrument": {
+        "mentions": 54,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 54,
+        "first_frame": 7,
+        "last_frame": 108,
+        "frames_with_table_context": 27,
+        "status": "handled_no_active_use"
+      },
+      "drill": {
+        "mentions": 0,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 0,
+        "first_frame": null,
+        "last_frame": null,
+        "frames_with_table_context": 0,
+        "status": "not_observed"
+      },
+      "hammer": {
+        "mentions": 0,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 0,
+        "first_frame": null,
+        "last_frame": null,
+        "frames_with_table_context": 0,
+        "status": "not_observed"
+      },
+      "saw": {
+        "mentions": 32,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 0,
+        "handling_events": 32,
+        "first_frame": 0,
+        "last_frame": 40,
+        "frames_with_table_context": 0,
+        "status": "handled_no_active_use"
+      }
+    },
+    "035_PKA": {
+      "instrument": {
+        "mentions": 284,
+        "active_use_events_direct": 1,
+        "active_use_events_inferred": 11,
+        "handling_events": 283,
+        "first_frame": 13,
+        "last_frame": 1098,
+        "frames_with_table_context": 235,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 171,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 90,
+        "handling_events": 171,
+        "first_frame": 280,
+        "last_frame": 947,
+        "frames_with_table_context": 107,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 31,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 17,
+        "handling_events": 31,
+        "first_frame": 768,
+        "last_frame": 863,
+        "frames_with_table_context": 31,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 73,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 69,
+        "handling_events": 73,
+        "first_frame": 677,
+        "last_frame": 830,
+        "frames_with_table_context": 71,
+        "status": "used"
+      }
+    },
+    "036_PKA": {
+      "instrument": {
+        "mentions": 723,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 12,
+        "handling_events": 723,
+        "first_frame": 7,
+        "last_frame": 986,
+        "frames_with_table_context": 586,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 141,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 86,
+        "handling_events": 141,
+        "first_frame": 395,
+        "last_frame": 854,
+        "frames_with_table_context": 141,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 28,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 24,
+        "handling_events": 28,
+        "first_frame": 512,
+        "last_frame": 763,
+        "frames_with_table_context": 27,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 165,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 79,
+        "handling_events": 165,
+        "first_frame": 192,
+        "last_frame": 700,
+        "frames_with_table_context": 163,
+        "status": "used"
+      }
+    },
+    "037_TKA": {
+      "instrument": {
+        "mentions": 563,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 7,
+        "handling_events": 563,
+        "first_frame": 11,
+        "last_frame": 1127,
+        "frames_with_table_context": 418,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 61,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 116,
+        "handling_events": 61,
+        "first_frame": 364,
+        "last_frame": 1067,
+        "frames_with_table_context": 42,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 0,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 4,
+        "handling_events": 0,
+        "first_frame": 219,
+        "last_frame": 536,
+        "frames_with_table_context": 0,
+        "status": "not_observed"
+      },
+      "saw": {
+        "mentions": 74,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 253,
+        "handling_events": 74,
+        "first_frame": 356,
+        "last_frame": 929,
+        "frames_with_table_context": 74,
+        "status": "used"
+      }
+    },
+    "038_TKA": {
+      "instrument": {
+        "mentions": 426,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 6,
+        "handling_events": 426,
+        "first_frame": 8,
+        "last_frame": 633,
+        "frames_with_table_context": 367,
+        "status": "used"
+      },
+      "drill": {
+        "mentions": 197,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 97,
+        "handling_events": 197,
+        "first_frame": 125,
+        "last_frame": 530,
+        "frames_with_table_context": 195,
+        "status": "used"
+      },
+      "hammer": {
+        "mentions": 4,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 3,
+        "handling_events": 4,
+        "first_frame": 380,
+        "last_frame": 385,
+        "frames_with_table_context": 4,
+        "status": "used"
+      },
+      "saw": {
+        "mentions": 109,
+        "active_use_events_direct": 0,
+        "active_use_events_inferred": 55,
+        "handling_events": 64,
+        "first_frame": 281,
+        "last_frame": 375,
+        "frames_with_table_context": 83,
+        "status": "used"
+      }
+    }
+  },
+  "caveats": [
+    "Scene graphs are class-level (not per physical item instance).",
+    "Tool-to-table 'lyingOn' style relations are sparse/absent in provided MM-OR split JSONs.",
+    "secondary_table appears in ontology but has zero mentions in current MM-OR scene-graph splits.",
+    "Use these outputs for triage and candidate generation, then validate against images/segmentation."
+  ]
+}

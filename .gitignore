@@ -21,3 +21,9 @@
 /panoptic_segmentation/output_R50_HybridOR_temporal_online_withsimstation/model_final.pth
 /panoptic_segmentation/mask2former/ctvis_r50_vspw.pth
 /panoptic_segmentation/mask2former/model_final_3c8ec9.pkl
+
+# Local dataset/artifact directories from download/offload workflows.
+/MM-OR_data/
+/4D-OR_data/
+/markers/
+/offload_mm-or.log

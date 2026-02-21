@@ -1,0 +1,214 @@
+{
+  "repo_root": "/Users/sirendi/Experiments/MM-OR",
+  "mmor_root": "/Users/sirendi/Experiments/MM-OR/MM-OR_data",
+  "markers_dir": "/Users/sirendi/Experiments/MM-OR/markers",
+  "download_progress": {
+    "markers_found": 0,
+    "expected_zip_count": 32,
+    "marker_completion_ratio": 0.0,
+    "zip_files_currently_present_in_repo_root": [
+      "001_PKA.zip"
+    ]
+  },
+  "top_level_status": {
+    "take_jsons": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_point_clouds_sparse": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_timestamp_to_next_action": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_timestamp_to_robot_phase": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_timestamp_to_sterility_breach": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_tracks": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_transcripts": {
+      "exists": false,
+      "is_dir": false
+    },
+    "screen_summaries": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_audios": {
+      "exists": false,
+      "is_dir": false
+    }
+  },
+  "optional_derived_status": {
+    "take_audio_per_timepoint": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_audio_embeddings_per_timepoint": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_transcripts_per_timepoint": {
+      "exists": false,
+      "is_dir": false
+    },
+    "take_segmasks_per_timepoint": {
+      "exists": false,
+      "is_dir": false
+    }
+  },
+  "per_take_status": {
+    "take_json": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_jsons/001_PKA.json",
+        "take_jsons/002_PKA.json",
+        "take_jsons/003_TKA.json",
+        "take_jsons/004_PKA.json",
+        "take_jsons/005_TKA.json"
+      ]
+    },
+    "next_action": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_timestamp_to_next_action/001_PKA.json",
+        "take_timestamp_to_next_action/002_PKA.json",
+        "take_timestamp_to_next_action/003_TKA.json",
+        "take_timestamp_to_next_action/004_PKA.json",
+        "take_timestamp_to_next_action/005_TKA.json"
+      ]
+    },
+    "robot_phase": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_timestamp_to_robot_phase/001_PKA.json",
+        "take_timestamp_to_robot_phase/002_PKA.json",
+        "take_timestamp_to_robot_phase/003_TKA.json",
+        "take_timestamp_to_robot_phase/004_PKA.json",
+        "take_timestamp_to_robot_phase/005_TKA.json"
+      ]
+    },
+    "sterility_breach": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_timestamp_to_sterility_breach/001_PKA.json",
+        "take_timestamp_to_sterility_breach/002_PKA.json",
+        "take_timestamp_to_sterility_breach/003_TKA.json",
+        "take_timestamp_to_sterility_breach/004_PKA.json",
+        "take_timestamp_to_sterility_breach/005_TKA.json"
+      ]
+    },
+    "tracks": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_tracks/001_PKA.json",
+        "take_tracks/002_PKA.json",
+        "take_tracks/003_TKA.json",
+        "take_tracks/004_PKA.json",
+        "take_tracks/005_TKA.json"
+      ]
+    },
+    "transcript_srt": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_transcripts/001_PKA.srt",
+        "take_transcripts/002_PKA.srt",
+        "take_transcripts/003_TKA.srt",
+        "take_transcripts/004_PKA.srt",
+        "take_transcripts/005_TKA.srt"
+      ]
+    },
+    "audio_mp3": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_audios/001_PKA.mp3",
+        "take_audios/002_PKA.mp3",
+        "take_audios/003_TKA.mp3",
+        "take_audios/004_PKA.mp3",
+        "take_audios/005_TKA.mp3"
+      ]
+    },
+    "take_folder": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "001_PKA",
+        "002_PKA",
+        "003_TKA",
+        "004_PKA",
+        "005_TKA"
+      ]
+    },
+    "colorimage": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "001_PKA/colorimage",
+        "002_PKA/colorimage",
+        "003_TKA/colorimage",
+        "004_PKA/colorimage",
+        "005_TKA/colorimage"
+      ]
+    },
+    "simstation": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "001_PKA/simstation",
+        "002_PKA/simstation",
+        "003_TKA/simstation",
+        "004_PKA/simstation",
+        "005_TKA/simstation"
+      ]
+    },
+    "trackercam": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "001_PKA/trackercam",
+        "002_PKA/trackercam",
+        "003_TKA/trackercam",
+        "004_PKA/trackercam",
+        "005_TKA/trackercam"
+      ]
+    },
+    "screen_summaries": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "screen_summaries/001_PKA",
+        "screen_summaries/002_PKA",
+        "screen_summaries/003_TKA",
+        "screen_summaries/004_PKA",
+        "screen_summaries/005_TKA"
+      ]
+    },
+    "point_cloud_sparse": {
+      "present_takes": 0,
+      "total_takes": 39,
+      "missing_examples": [
+        "take_point_clouds_sparse/001_PKA",
+        "take_point_clouds_sparse/002_PKA",
+        "take_point_clouds_sparse/003_TKA",
+        "take_point_clouds_sparse/004_PKA",
+        "take_point_clouds_sparse/005_TKA"
+      ]
+    }
+  }
+}
